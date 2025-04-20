@@ -1,4 +1,4 @@
-import { connectdb } from "./config/mongo";
+import { connectdb } from "./config/db";
 import {
     crearUsuario,
     obtenerUsuarios,
@@ -12,9 +12,9 @@ const main = async () => {
 
     // Crear
     await crearUsuario({
-        //nombre: "Paola Carolina Mendez Ibarra",
-        //email: "paola@gmail.com",
-        //edad: 28,
+        //nombre: "Lola Maria Paez Sanchez",
+        //email: "lola@gmail.com",
+        //edad: 32,
         //activo: true,
     });
 

@@ -1,5 +1,5 @@
-# CRUD con MongoDB y TypeScript
-Es un proyecto donde practico cómo conectar MongoDB (la base de datos) con TypeScript, y cómo hacer las operaciones más comunes:
+# CRUD con Mongoose y TypeScript
+Es un proyecto donde practico cómo conectar Mongoose(la base de datos) con TypeScript, y cómo hacer las operaciones más comunes:
 
 Crear un usuario
 Leer (ver) usuarios
@@ -10,11 +10,13 @@ Y todo eso sin hacer una API, o sea, sin usar Postman ni un servidor Express. So
 
 #Organizacion del proyecto
 TrabajoPracticoBackend/
-├── config/           → guarda la conexión a MongoDB
-├── controllers/      → tiene las funciones que hacen el CRUD
-├── models/           → acá está el esquema del usuario
-├── .env              → archivo con la URL de la base de datos
-├── index.ts          → donde se ejecutan las funciones para probar
+config/           → guarda la conexión a MongoDB
+controllers/      → tiene las funciones que hacen el CRUD
+models/           → acá está el esquema del usuario
+.env              → archivo con la URL de la base de datos
+index.ts          → donde se ejecutan las funciones para probar
+
+Tambien se ejecutaron pruebas como crear o borrar un usuario, buscar usuarios y buscar por id, las cuales fueron exitosas.
 
 #¿Qué herramientas usé?
 Node.js y TypeScript → para programar

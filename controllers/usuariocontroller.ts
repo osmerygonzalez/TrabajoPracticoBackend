@@ -1,4 +1,4 @@
-import UsuarioModel, { IUsuario } from "../models/Usuario";
+import UsuarioModel, { IUsuario } from "../models/usuario";
 
 // Crear un nuevo usuario
 const crearUsuario = async (usuaNuevo: Partial<IUsuario>) => {

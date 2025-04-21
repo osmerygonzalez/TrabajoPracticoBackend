@@ -11,12 +11,12 @@ const main = async () => {
     await connectdb();
 
     // Crear
-    await crearUsuario({
+    //await crearUsuario({
         //nombre: "Lola Maria Paez Sanchez",
         //email: "lola@gmail.com",
         //edad: 32,
         //activo: true,
-    });
+    //});
 
     // Leer
     await obtenerUsuarios();
@@ -25,6 +25,6 @@ const main = async () => {
     //await obtenerUsuarioPorId();
     //await actualizarUsuario();
     //await eliminarUsuario();
-};
+}
 
 main();

@@ -22,8 +22,8 @@ const main = async () => {
     await obtenerUsuarios();
 
     //const id = "67fff6d99b0f18ce6c65786c";
-    //await obtenerUsuarioPorId();
-    //await actualizarUsuario();
+    //await obtenerUsuarioPorId("67fff6d99b0f18ce6c65786c");
+    //await actualizarUsuario("67fff6d99b0f18ce6c657865", {edad: 42});
     //await eliminarUsuario();
 }
 
